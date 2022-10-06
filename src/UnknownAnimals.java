@@ -5,4 +5,8 @@ public class UnknownAnimals extends Animals{
         System.out.println("Create UnknownAnimals");
     }
 
+    final Integer numberoflegs(Integer num){
+        return num;
+    }
+
 }
