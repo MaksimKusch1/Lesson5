@@ -1,4 +1,4 @@
-public class Animals {
+public abstract class Animals {
     private String Name;
     private String NameLat;
     private String YearOfFound;
@@ -23,7 +23,7 @@ public class Animals {
         System.out.println("Колір тварини "+Name+ " зараз став: " + getColor());
     }
 
-    public void Print(String all){
+    public final void Print(String all){
         System.out.println("Назва: "+Name);
         System.out.println("Назва латиною: "+NameLat);
         System.out.println("Рік відкриття: "+YearOfFound);
